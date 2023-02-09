@@ -38,7 +38,7 @@ func indexPage(w http.ResponseWriter, r *http.Request) {
 		Header:    "Gopher's Journey",
 		Image:     "assets/img/gopher-journey.png",
 		Text:      `The Go programming language has a mascot, a gopher, which has been designed by the talented artist Renee French. The gopher has inspired a variety of merchandise such as T-shirts, posters, stickers, and home decor items, which are all designed and sold by independent artists. The gopher has become a symbol of the Go community, and there is an initiative called GopherSource that aims to strengthen and diversify the ecosystem of the language. The gopher has become a "bat signal" for both beginner and experienced members of the Go community. For more information on the gopher, you can read the blog post on the Go programming language's website.`,
-		Subheader: "Gopher Journey is me",
+		Subheader: "Never seems to end, but it's fun!",
 		Button:    "Say Hello",
 	}
 	printPage(w, "index.html", data)
